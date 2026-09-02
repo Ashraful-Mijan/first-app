@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Book Reader",
+    "slug": "book-reader",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f7f3e9"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kilo.bookreader"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#f7f3e9",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.kilo.bookreader",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "single-page",
+      "singlePageTemplate": "index.html"
+    },
+    "plugins": []
+  }
+}
